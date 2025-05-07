@@ -73,7 +73,7 @@ Adicione a seguinte linha:
 
 ```bash
 cd proxy
-docker-compose up -d
+docker compose up -d
 ```
 
 O Nginx usará os certificados reais montados via volume e fará o proxy para seus serviços internos:
